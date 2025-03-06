@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac-like Computer Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="dock">
+        <div class="dock-item">Finder</div>
+        <div class="dock-item">Safari</div>
+        <div class="dock-item">Terminal</div>
+    </div>
+    <div class="window" id="window1">
+        <div class="title-bar">
+            <span class="title">Finder</span>
+            <button class="close-button" onclick="closeWindow('window1')">&times;</button>
+        </div>
+        <div class="content">
+            <!-- Window content goes here -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
