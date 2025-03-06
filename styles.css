@@ -35,6 +35,8 @@ body {
     background: white;
     border: 1px solid #ccc;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+     background: url('finder-window.png') no-repeat center center; /* Add this line */
+    background-size: cover; /* Add this line */
     display: none;
 }
 
