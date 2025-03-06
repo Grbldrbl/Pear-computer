@@ -21,6 +21,8 @@ body {
     margin: 0 10px;
     padding: 5px;
     color: white;
+     background: url('finder_compressed.jpg') no-repeat center center; /* Set the background image */
+    background-size: cover; /* Make sure the image covers the entire div */
     cursor: pointer;
 }
 
