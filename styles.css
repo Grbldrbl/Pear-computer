@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('mac-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.dock {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.dock-item {
+    margin: 0 10px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.window {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px;
+    height: 300px;
+    background: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.title-bar {
+    background: #ccc;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: bold;
+}
+
+.close-button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.content {
+    padding: 10px;
+}
